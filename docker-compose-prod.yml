@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  web:
+    image: husamabuzina/docker-husam:latest
+    ports:
+      - "80:80"
